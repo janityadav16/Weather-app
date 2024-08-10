@@ -31,8 +31,8 @@ const Weather: React.FC<WeatherProps> = ({ city }) => {
     return (
         <div>
             <h1>Weather in {city}</h1>
-            <p>Temperature: {weatherData.main.temp}°C</p>
-            <p>Description: {weatherData.weather.description}</p>
+            <p>Temperature is: {weatherData.main.temp}°C</p>
+            <p>Description of: {weatherData.weather.description}</p>
         </div>
     );
 };
