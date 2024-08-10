@@ -13,10 +13,10 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch }) => {
 
     return (
         <div>
-        <input type= "text" value = { city } onChange = {(e) => setCity(e.target.value)} />
-            < button onClick = { handleSearch } > Search </button>
-                </div>
-  );
+            <input type="text" value={city} onChange={(e) => setCity(e.target.value)} />
+            < button onClick={handleSearch} > Search Value </button>
+        </div>
+    );
 };
 
 export default SearchBar;
